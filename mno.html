@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript</title>
+</head>
+<body>
+	<h1 id="heh" style="display:none;">Aceasta este tema la engleza.</h1>
+	<img id="test" src="OBS-GINE.jpg" style="display: none;">
+	<img id="eng" src="Imagine WhatsApp 2024-01-30 la 18.00.46_ba284ee3.jpg" style="display: none;">
+	<img id="munte" src="munte.jpg" style="display: none;">
+	<script>
+		const med = document.getElementById('test')
+		const engleza = document.getElementById('eng')
+		const mun = document.getElementById('munte')
+		let raspuns = prompt("1.Engleza\n2.Medicina\n3.Munte")
+		if (raspuns==="1"){
+		document.getElementById("heh").style.display="inline"
+			engleza.style.display="block"
+		} else if (raspuns==="2"){
+			med.style.display="block"
+		} else if (raspuns==="3"){
+			mun.style.display="block"
+		}
+	</script>
+</body>
+</html>
