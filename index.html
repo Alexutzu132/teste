@@ -11,10 +11,11 @@
         </style>
 </head>
 <body>
+    <h1 id="text" style="display: none">Da-i refresh dacă nu apare mesajul ala.</h1>
     <img id="thales" src="teorema.jpg" style="display: none;">
     <img id="thales1" src="teorema1.jpg" style="display: none;">
-<h1>Da-i refresh dacă nu apare mesajul ala.</h1>
        <script>
+        document.getElementById('text').style.display="block"
         let answer = prompt("Scrie numărul din stânga optiunii pe care vrei să o alegi.\n\n1.Lectii\n2.Mesaje pentru cineva din clasă")
         if (answer==="2"){
                let raspuns=prompt("Scrie numărul din stanga numelui pentru a vedea un mesaj pentru persoana respectivă\n\n1.Alex\n2.Pascanu\n3.Rebeca\n4.Daria\n5.Serban\n6.Alexia\n7.Luca\n8.Mariana\n9.Martian\n10.Ingrid\n11.Doamna Diriginta\n12.Rares\n13.Filimon\n14.Ada\n15.David")
@@ -47,7 +48,7 @@
                      if (answer==="Da"){
                         alert("Pupici 💓💋")
      }
-     }else if (raspuns==="14"){
+     } else if (raspuns==="14"){
                         confirm("Minți")
                 } else if (raspuns==="15"){
                         confirm("The vinnie's boyfriend")
@@ -65,6 +66,9 @@
             }
         }
     }
+</script>
+</body>
+</html>
 </script>
 </body>
 </html>
