@@ -1,27 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Javascript</title>
+        <meta charset="UTF-8">
+        <title>Clasa a VII-a</title>
+        <style>
+               body{
+                     background: black;
+                     color: white;
+           }
+        </style>
 </head>
 <body>
-	<h1 id="heh" style="display:none;">Aceasta este tema la engleza.</h1>
-	<img id="test" src="OBS-GINE.jpg" style="display: none;">
-	<img id="eng" src="Imagine WhatsApp 2024-01-30 la 18.00.46_ba284ee3.jpg" style="display: none;">
-	<img id="munte" src="munte.jpg" style="display: none;">
-	<script>
-		const med = document.getElementById('test')
-		const engleza = document.getElementById('eng')
-		const mun = document.getElementById('munte')
-		let raspuns = prompt("1.Engleza\n2.Medicina\n3.Munte")
-		if (raspuns==="1"){
-		document.getElementById("heh").style.display="inline"
-			engleza.style.display="block"
-		} else if (raspuns==="2"){
-			med.style.display="block"
-		} else if (raspuns==="3"){
-			mun.style.display="block"
-		}
-	</script>
+    <img id="thales" src="teorema.jpg" style="display: none;">
+    <img id="thales1" src="teorema1.jpg" style="display: none;">
+<h1>Da-i refresh dacă nu apare mesajul ala.</h1>
+       <script>
+        let answer = prompt("Scrie numărul din stânga optiunii pe care vrei să o alegi.\n\n1.Lectii\n2.Mesaje pentru cineva din clasă")
+        if (answer==="2"){
+               let raspuns=prompt("Scrie numărul din stanga numelui pentru a vedea un mesaj pentru persoana respectivă\n\n1.Alex\n2.Pascanu\n3.Rebeca\n4.Daria\n5.Serban\n6.Alexia\n7.Luca\n8.Mariana\n9.Martian\n10.Ingrid\n11.Doamna Diriginta\n12.Rares\n13.Filimon\n14.Ada\n15.David")
+                if (raspuns==="2"){
+                     confirm("Să tragi tare anul ăsta,bine?")
+      } else if (raspuns==="10"){
+                     confirm("22.03")
+      } else if (raspuns==="9"){
+                      confirm("Iară te-o scăpat mâna,martiane?")
+      } else if (raspuns==="7"){
+                      confirm("Fortnite 🔛🔝")
+      } else if (raspuns==="3"){
+                    confirm("Bună Lume 👋")
+      } else if (raspuns==="8"){
+                     confirm("Vrea Luca să te bulească")
+      } else if (raspuns==="12"){
+                      confirm("30.06")
+      } else if (raspuns==="1"){
+                     confirm("Adele ❤❤")
+      } else if (raspuns==="4"){
+                      confirm("Trage tare la sală,nu ca Pascanu")
+      } else if (raspuns==="13"){
+                      confirm("Lasă manuala")
+      } else if (raspuns==="6"){
+                      confirm("Șefa Clasei 😎")
+      } else if (raspuns==="5"){
+                      confirm("Ceapa mătii")
+      }else if (raspuns==="11"){
+                     let answer=prompt("Știți că vă iubim?? 💗💓💞💕❤❤")
+                     if (answer==="Da"){
+                        alert("Pupici 💓💋")
+     }
+     }else if (raspuns==="14"){
+                        confirm("Minți")
+                } else if (raspuns==="15"){
+                        confirm("The vinnie's boyfriend")
+                }
+    } else if (answer==="1"){
+        let answer1 = prompt("Scrie numărul din stânga optiunii pe care vrei să o alegi.\n\n1.Matematică")
+        if (answer1==="1"){
+            let answer2 = prompt("1.Algebră\n2.Geometrie")
+            if (answer2==="2"){
+                let answer3 = prompt("1.Teorema lui Thales\n2.Exercitii(Teorema lui Thales)")
+                if (answer3==="1"){
+                    thales.style.display="block"
+                    thales1.style.display="block"
+                }
+            }
+        }
+    }
+</script>
 </body>
 </html>
